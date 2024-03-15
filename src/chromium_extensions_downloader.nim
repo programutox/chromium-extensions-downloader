@@ -28,6 +28,7 @@ proc main =
       else:
         extensionLink[extensionLink.len-extensionIdLength..extensionLink.len-1]
 
+  echo "Here is the link !"
   echo fmt"https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion={chromiumVersion}&x=id%3D{extensionId}%26installsource%3Dondemand%26uc"
 
 when isMainModule:
