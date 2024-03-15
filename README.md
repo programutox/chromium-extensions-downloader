@@ -29,7 +29,7 @@ Let's say my Chromium version is 121.0.6167.184, and I want to download Wii Shop
 
 I just have to type : `./ced 121.0.6167.184 https://chromewebstore.google.com/detail/wii-shop-channel-music/camjnljbmplngaalikoefoibonimfhkd`
 
-Pasting the link will download the crx file and, when it's done, ask you if you want to install the extension.
+Pasting the link will download the crx file and, when it's done, your browser will ask you if you want to install the extension.
 
 ## One downside
 
